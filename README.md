@@ -24,7 +24,7 @@ Password: pass0987
 1. Clone the repository:
 
    ```bash
-   git clone <REPO_URL>
+   git clone https://github.com/liascope/thewildoasisapp.git
    cd the-wild-oasis
    ```
 
