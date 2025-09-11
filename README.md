@@ -1,72 +1,39 @@
- The Wild Oasis - App
+ Wild Oasis – Admin Version
 
-The Wild Oasis is a modern Single Page Application (SPA) built with React.js, using Supabase for database management and user authentication/authorization. The app leverages React Query for data fetching and caching, Styled Components for styling, and Vite for fast development and build processes.
+The Wild Oasis Admin App is a comprehensive hotel management system designed for hotel staff. It provides a user-friendly interface to manage cabins, bookings, and guests, ensuring efficient operations.
 
- Features
+Key Features:
 
-* Single Page Application (SPA)** using React.js and Vite
-* User Authentication & Authorization** via Supabase
-* Database management** with Supabase
-* Data fetching and caching** using React Query
-* Component-based styling** with Styled Components
+* User Authentication:
+  Implemented secure authentication using **NextAuth.js** and **Supabase**, allowing hotel employees to log in with email and password.
 
- Demo Login
+* Cabin Management:
+  Enables staff to create, update, and delete cabin records, ensuring accurate and up-to-date information.
 
-You can try the app using the following demo account:
+* Booking Management:
+  Allows for the management of guest bookings, including check-ins, check-outs, and status updates.
 
-Email: liascope@example.com
-Password: pass0987
+* Dashboard:
+  Provides an overview of recent bookings, check-ins, and sales, aiding in daily operations.
 
-> Note: This is a demo account. Any changes in the app will be saved to the database.
+Technologies Used:
 
- Installation
+* Frontend:
 
-1. Clone the repository:
+  * React.js
+  * Next.js
+  * Tailwind CSS
+  * React Query
+  * React Hook Form
+  * Styled Components
 
-   ```bash
-   git clone https://github.com/liascope/thewildoasisapp.git
-   cd the-wild-oasis
-   ```
+* Backend & Authentication:
 
-2. Install dependencies:
+  * Supabase
+  * NextAuth.js
 
-   ```bash
-   npm install
-   ```
+My learnings:
+Through this project, I gained hands-on experience with Supabase for backend services and NextAuth.js for implementing secure authentication flows, enhancing my skills in full-stack development.
 
-3. Start the development server:
 
-   ```bash
-   npm run dev
-   ```
-
-4. Open the app in your browser:
-
-   ```
-   http://localhost:5173
-   ```
-
- Technology Stack
-
-| Technology        | Purpose                                         |
-| ----------------- | ----------------------------------------------- |
-| React.js          | Frontend framework                              |
-| Vite              | Development and build tool                      |
-| Supabase          | Backend-as-a-Service (database, authentication) |
-| React Query       | Data fetching and caching                       |
-| Styled Components | Component-level styling                         |
-
- Authentication & Authorization
-
-* Only authenticated users can access certain pages.
-* Supabase manages sessions and database-level authorization.
-* React Query ensures efficient fetching and caching of data.
-
- Contributing
-
-Contributions are welcome! Please fork the repository, create a branch, and submit a pull request.
-
- License
-
-MIT License
-
+Developed as part of Jonas Schmedtmann’s Ultimate React 2025 course.
