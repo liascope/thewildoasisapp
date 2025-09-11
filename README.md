@@ -30,10 +30,9 @@ Technologies Used:
 * Backend & Authentication:
 
   * Supabase
-  * NextAuth.js
 
 My learnings:
-Through this project, I gained hands-on experience with Supabase for backend services and NextAuth.js for implementing secure authentication flows, enhancing my skills in full-stack development.
+Through this project, I gained hands-on experience with Supabase for backend and implementing secure authentication flows, enhancing my skills in full-stack development.
 
 
 Developed as part of Jonas Schmedtmann’s Ultimate React 2025 course.
