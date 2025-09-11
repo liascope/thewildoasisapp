@@ -30,6 +30,10 @@ Technologies Used:
 * Backend & Authentication:
 
   * Supabase
+    
+* Demo Access:
+Email: liascope@example.com
+Password: pass0987
 
 My learnings:
 Through this project, I gained hands-on experience with Supabase for backend and implementing secure authentication flows, enhancing my skills in full-stack development.
